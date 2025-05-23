@@ -2,13 +2,15 @@
   "name": "@easy-accounting/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "private": true,
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^2.1.1",
     "@eslint/js": "^9.8.0",
-     "@nestjs/config": "^4.0.2",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/mongoose": "^11.0.3",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
@@ -39,6 +41,7 @@
     "eslint-plugin-jsx-a11y": "6.10.1",
     "eslint-plugin-react": "7.35.0",
     "eslint-plugin-react-hooks": "5.0.0",
+    "husky": "^9.1.7",
     "nx": "21.1.1",
     "prettier": "^2.6.2",
     "sass": "1.62.1",
@@ -52,14 +55,14 @@
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
     "axios": "^1.6.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
     "next": "~15.2.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0",
-    "bcrypt": "^6.0.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.0"
+    "rxjs": "^7.8.0"
   }
 }
